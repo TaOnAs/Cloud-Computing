@@ -1,2 +1,7 @@
 SomeText
+<<<<<<< HEAD
 Adding text from VM1
+=======
+More TextVM2
+>>>>>>> 97b8d71d4efc2e24f5c6b1fdd671b8c39301caea
+Adding line from VM1
