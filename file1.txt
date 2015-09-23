@@ -1,1 +1,2 @@
 SomeText
+Adding text from VM1
