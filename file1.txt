@@ -1,1 +1,2 @@
 SomeText
+More TextVM2
