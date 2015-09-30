@@ -1,11 +1,11 @@
-year = [31,28,31,30,31,30,31,31,30,31,30,31]
+year = [31,28,31,30,31,30,31,31,30,31,30,31]      #declare arrays
 lYear = [31,29,31,30,31,30,31,31,30,31,30,31]
 
-curYear = 1900
+#declare variables
 day = 1
 counter = 0
 
-for  curYear in range(1900, 2001):
+for curYear in range(1900, 2000):
   print(curYear)
   for i in range(0,12):
     print(i)
@@ -22,6 +22,6 @@ for  curYear in range(1900, 2001):
 
 print("Counter: ")
 print(counter)
-print(curYear)
+
 
 
