@@ -6,6 +6,6 @@ print(word)
 print (reverseWord)
 
 if word == reverseWord:
-
+  print(True)
 else:
-
+  print(False)
