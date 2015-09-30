@@ -5,3 +5,7 @@ reverseWord = word[::-1]
 print(word)
 print (reverseWord)
 
+if word == reverseWord:
+
+else:
+
