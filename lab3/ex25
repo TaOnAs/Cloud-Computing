@@ -3,7 +3,7 @@ y = 1
 
 term = 1 #term variable to track what term of the sequence its on
 
-while (len(str(y)) != 4): #convert y to a string and count the number of 'letters' (digits) of the current term break if its 4 digits long
+while (len(str(y)) != 1000): #convert y to a string and count the number of 'letters' (digits) of the current term break if its 1000 digits long
     t = y                 #set the value of y to a temp var
     y = y + x             #set y to y plus the previous number in the sequence (x)
     x = t                 #set x to the temp variable
