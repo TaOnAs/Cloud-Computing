@@ -1,0 +1,26 @@
+year = [31,28,31,30,31,30,31,31,30,31,30,31]
+lYear = [31,29,31,30,31,30,31,31,30,31,30,31]
+
+curYear = 1990
+day = 1
+counter = 0
+
+for  curYear in range(1900, 2001):
+  print(curYear)
+  for i in range(1,12):
+
+    if curYear % 4 != 0 or curYear % 400 == 0:
+      for j in range(1,year[i]):
+        day = (day + 1 ) % 7
+        print(day)
+
+        if (curYear == 2000) and (day == 0):
+          counter = counter + 1
+    else:
+      for j in range(1,lYear[i]):
+        day = (day + 1) % 7
+        if (curYear == 2000) and (day == 0):
+          counter = counter + 1
+
+print("Counter: ")
+print(counter)
