@@ -1,11 +1,10 @@
+word = input() #Gets user input and stores it in a variable word
+reverseWord = word[::-1] #reverse the string input
 
-word = input()
-reverseWord = word[::-1]
+print(word)         #prints out the entered word
+print (reverseWord) # prints out the reversed word
 
-print(word)
-print (reverseWord)
-
-if word == reverseWord:
+if word == reverseWord: #if the inputted word is equal to the reversed word print true else print false
   print(True)
 else:
   print(False)
