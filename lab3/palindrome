@@ -1,2 +1,4 @@
 
-word = raw_input();
+word = input()
+
+print(word)
