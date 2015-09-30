@@ -3,7 +3,7 @@ y = 1
 
 term = 1
 
-while (len(str(y)) != 3):
+while (len(str(y)) != 4):
     t = y
     y = y + x
     x = t
